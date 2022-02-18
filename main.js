@@ -8,7 +8,7 @@ ctx = canvas.getContext("2d");
 var width = screen.width;
 
 new_width =  screen.width - 70; 
-new_height = screen.height - 300;
+new_height = screen.height - 400;
 	if(width < 992)
 	{
 	document.getElementById("myCanvas").width = new_width;
@@ -22,7 +22,7 @@ function my_touchstart(e)
 	console.log("my_touchstart");
   //Additional Activity
   color = document.getElementById("color").value;
-  width_of_line = document.getElementById("width_of_line").value;
+  
   //End Additional Activity
          
     last_position_of_x = e.touches[0].clientX - canvas.offsetLeft;
